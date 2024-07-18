@@ -33,8 +33,7 @@ let Services = class Services {
         const services = this.services.filter((service) => service.name.toLowerCase().includes(lowered));
         if (services.length == 1)
             return services[0].code;
-        if (services.length == 0)
-            throw new Error(`Service not found: ${name}`);
+        // if (services.length == 0) throw new Error(`Service not found: ${name}`);
         throw new Error(`Multiple services found: ${services
             .map((s) => `[${s.name}] (${s.code})`)
             .join(', ')}`);

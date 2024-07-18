@@ -476,6 +476,7 @@
     { "code": "nl", "name": "Myntra", "f": "0" },
     { "code": "uw", "name": "Kirana", "f": "0" },
     { "code": "fo", "name": "MobiKwik", "f": "0" },
+    { "code": "acz", "name": "Claude", "f": "0" },
     { "code": "dr", "name": "OpenAI", "f": "0" },
     { "code": "ai", "name": "CELEBe", "f": "0" },
     { "code": "ht", "name": "Bitso", "f": "0" },
