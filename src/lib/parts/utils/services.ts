@@ -26,7 +26,7 @@ export class Services {
 
   public get(name: string) {
     const lowered = name.toLowerCase();
-    if (lowered.length == 2) return lowered;
+    if (lowered.length == 2 || lowered.length == 3) return lowered;
     const services = this.services.filter((service) =>
       service.name.toLowerCase().includes(lowered)
     );

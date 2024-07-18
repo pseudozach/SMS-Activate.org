@@ -28,7 +28,7 @@ let Services = class Services {
     }
     get(name) {
         const lowered = name.toLowerCase();
-        if (lowered.length == 2)
+        if (lowered.length == 2 || lowered.length == 3)
             return lowered;
         const services = this.services.filter((service) => service.name.toLowerCase().includes(lowered));
         if (services.length == 1)
