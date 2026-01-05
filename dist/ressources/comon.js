@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EApiActions = exports.BASE_URL = void 0;
-exports.BASE_URL = `https://api.sms-activate.org/stubs/handler_api.php`;
+exports.BASE_URL = `https://hero-sms.com/stubs/handler_api.php`;
 var EApiActions;
 (function (EApiActions) {
     // Activations API

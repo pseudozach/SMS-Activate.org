@@ -1,4 +1,4 @@
-export declare const BASE_URL = "https://api.sms-activate.org/stubs/handler_api.php";
+export declare const BASE_URL = "https://hero-sms.com/stubs/handler_api.php";
 export declare enum EApiActions {
     getNumbersStatus = 0,
     getTopCountriesByService = 1,

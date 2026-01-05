@@ -10,6 +10,11 @@ Install the package using npm
   npm install sms-activate-org
 ```
 
+## Build
+```bash
+  npx tsc
+```
+
 ## Usage/Examples
 
 ```javascript
