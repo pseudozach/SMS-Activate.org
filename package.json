@@ -1,6 +1,6 @@
 {
   "name": "sms-activate-org",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A full NodeJS API for sms-activate.org",
   "main": "dist/index.js",
   "devDependencies": {
